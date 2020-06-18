@@ -1,0 +1,1 @@
+gcc ./test/logger_tests.c -o ./bin/logger ./source/logger.c -lcmocka && ./bin/logger && rm -f ./bin/logger
